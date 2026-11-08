@@ -375,7 +375,22 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
   .band{padding-block:56px}
 }
 @media (prefers-reduced-motion:reduce){.topbar .dot{animation:none}html{scroll-behavior:auto}.sticky{transition:none}}
-</style>
+
+.promise{background:linear-gradient(155deg,var(--card-2),var(--card));border:1px solid var(--rose-line);border-radius:20px;padding:22px 20px;margin:4px 0 24px}
+.promise .pt{font-family:var(--font-display);font-weight:800;font-size:clamp(21px,5.6vw,27px);line-height:1.15;color:var(--white);letter-spacing:-.01em;margin-bottom:14px;text-wrap:balance}
+.promise .pt em{font-style:normal;color:var(--rose)}
+.promise .pl2{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--rose);margin-bottom:10px}
+.promise ul{list-style:none;display:grid;gap:10px}
+.promise li{display:flex;gap:11px;align-items:flex-start;font-size:15.5px;color:var(--white-2);line-height:1.4}
+.promise li span{font-size:17px;line-height:1.3}
+.card .ic,.dom .ic{font-size:22px;line-height:1}
+.dom .ic{font-size:20px}
+.phase .days{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);background:var(--rose);padding:2px 8px;border-radius:6px;margin-bottom:6px}
+.ostrike{text-align:center;margin-top:8px;font-size:18px;color:var(--muted)}
+.ostrike s{text-decoration-thickness:2px;text-decoration-color:var(--rose)}
+.olaunch{text-align:center;margin:8px auto 14px;font-size:13px;font-weight:600;color:var(--white-2);background:var(--rose-bg);border:1px solid var(--rose-line);border-radius:10px;padding:8px 12px}
+.olaunch b{color:var(--rose)}
+.dprice{font-size:18px;color:var(--white-2);margin:4px 0 22px}.dprice s{color:var(--muted);text-decoration-color:#e04a5f;text-decoration-thickness:2px}.dprice b{font-family:var(--font-display);font-weight:800;font-size:34px;color:var(--rose);margin-left:6px}.decisao h2{margin-bottom:12px}.vagas{display:inline-block;margin:6px 0 14px;font-size:13px;font-weight:700;color:var(--ink);background:var(--rose);padding:8px 14px;border-radius:999px}.promise.heroP{margin:4px 0 20px}.promise.heroP .pt{font-size:clamp(19px,5.2vw,24px)}.topbar{background:linear-gradient(90deg,#b3122c,#e0243d,#b3122c);border-bottom:none}.topbar .wrap{padding-block:9px;gap:10px;font-size:13px;font-weight:700;color:#fff;flex-wrap:nowrap;line-height:1.15;white-space:nowrap}.topbar .dot{display:none}.topbar b{color:#fff;font-family:var(--font-display);font-weight:800;font-size:27px;letter-spacing:.04em;background:rgba(0,0,0,.28);padding:1px 10px;border-radius:10px}.olaunch .t2{font-size:15px}</style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
@@ -402,23 +417,27 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
 </svg>
 
 <!-- BARRA DO TOPO -->
-<div class="topbar"><div class="wrap"><span class="dot"></span><span>30 dias · 10 min por dia · Garantia de 7 dias</span></div></div>
+<div class="topbar"><div class="wrap"><span class="dot"></span><span>Oferta de lançamento termina em <b id="timer">--:--:--</b></span></div></div>
 
 <!-- HERO -->
 <header class="band hero"><div class="hphoto"><img src="img01.jpg" alt="Ana Carolina Lira" width="860" height="790" fetchpriority="high"></div><div class="wrap hwrap">
   <h1>Difamaram e te excluíram? Se defenda sem virar a vilã da história e <em>recupere a sua paz.</em></h1>
-  <p class="sub"><b>Protocolo Blindagem:</b> o passo a passo de 4 etapas pra sair dessa com a cabeça erguida.</p>
-  <div class="mesmoque">
-    <div><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>Mesmo que a mentira já tenha se espalhado.</div>
-    <div><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>Mesmo que todo mundo tenha ficado em silêncio.</div>
-    <div><span class="ck"><svg class="i"><use href="#i-check"/></svg></span>Mesmo que seja no trabalho, na família ou na escola do seu filho.</div>
+  <div class="promise heroP">
+    <div class="pt">O protocolo de 30 dias para romper com um narcisista, se reconstruir por inteiro e <em>nunca mais ser refém de um manipulador.</em></div>
+    <div class="pl2">Nas primeiras 2 semanas, você:</div>
+    <ul>
+      <li><span>✅</span>Vê que não era culpa sua</li>
+      <li><span>😴</span>Dorme melhor e para de ficar remoendo a história</li>
+      <li><span>💔</span>Lida com a saudade sem recair</li>
+      <li><span>🛡️</span>Fica menos vulnerável a ser atacada de novo</li>
+    </ul>
   </div>
   <div class="facts"><span>30 dias, 4 etapas</span><span>10 minutos por dia</span><span>É preencher e usar</span></div>
-  <a class="cta" data-cta href="#oferta">QUERO ME BLINDAR</a>
+  <a class="cta" data-cta href="#oferta">ACESSO IMEDIATO COM 76% OFF</a>
   <div class="trust">
-    <span><svg class="i"><use href="#i-lock"/></svg>Compra segura</span>
-    <span><svg class="i"><use href="#i-zap"/></svg>Acesso imediato</span>
-    <span><svg class="i"><use href="#i-shield"/></svg>Garantia de 7 dias</span>
+    <span>🔒 Compra segura</span>
+    <span>⚡ Acesso imediato</span>
+    <span>🛡️ Garantia de 7 dias</span>
   </div>
 </div></header>
 
@@ -427,12 +446,11 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
   <div class="eyebrow">Pare de se culpar</div>
   <h2>Quanto mais você tenta se defender, mais afunda.</h2>
   <div class="cards">
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-msg"/></svg></span><div><h3>Você se explica e piora</h3><p>Cada defesa vira munição.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><div><h3>A versão deles chegou primeiro</h3><p>Quando você abriu a boca, a história já estava contada.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-mute"/></svg></span><div><h3>Ninguém falou nada</h3><p>Quem viu tudo escolheu o silêncio.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-repeat"/></svg></span><div><h3>O roteiro te segue</h3><p>Muda o grupo, o trabalho, a igreja. O roteiro é o mesmo.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-help"/></svg></span><div><h3>Você duvida de você</h3><p>Já passou, mas você remói e confia menos em todo mundo.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-lock"/></svg></span><div><h3>Você não pode simplesmente sair</h3><p>É o trabalho, a família, a escola do seu filho.</p></div></div>
+    <div class="card"><span class="ic">🪞</span><div><h3>Você não se reconhece mais</h3><p>Olha no espelho e não encontra a pessoa forte que era antes dela.</p></div></div>
+    <div class="card"><span class="ic">🧠</span><div><h3>Você duvida da própria mente</h3><p>Ela diz que você "exagera", "imagina coisas", e você passa a desconfiar da sua própria realidade.</p></div></div>
+    <div class="card"><span class="ic">🔁</span><div><h3>Você se explica e piora</h3><p>Cada defesa vira munição.</p></div></div>
+    <div class="card"><span class="ic">🚪</span><div><h3>Você não pode simplesmente sair</h3><p>É o trabalho, a família, a escola do seu filho.</p></div></div>
+    <div class="card"><span class="ic">📣</span><div><h3>A versão deles chegou primeiro</h3><p>Quando você abriu a boca, a história já estava contada.</p></div></div>
   </div>
   <h3 class="proofh">O que dizem as mulheres que me acompanham</h3>
   <div class="pcols">
@@ -457,7 +475,7 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
       <ul>
         <li><svg class="i"><use href="#i-check"/></svg><span><b>Foi difamada, excluída ou virou a vilã</b> de uma história que nem escreveu.</span></li>
         <li><svg class="i"><use href="#i-check"/></svg><span><b>Já tentou de tudo:</b> se explicar, se afastar, rezar, desabafar.</span></li>
-        <li><svg class="i"><use href="#i-check"/></svg><span><b>Quer um passo a passo,</b> não mais um desabafo.</span></li>
+        <li><svg class="i"><use href="#i-check"/></svg><span><b>Quer um plano, não um desabafo.</b> Passo a passo, com fases, prazo e ações diárias concretas.</span></li>
       </ul>
     </div>
     <div class="box not">
@@ -474,8 +492,8 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
 <section class="band alt"><div class="wrap">
   <div class="verdade">
     <div class="eyebrow">A verdade que liberta</div>
-    <div class="big">Reconhecer o padrão é o <em>primeiro passo.</em> O difícil é o que vem depois.</div>
-    <p>Você não precisa que ela mude, admita ou descubra a verdade. Precisa de um método.</p>
+    <div class="big">Ela não vai mudar. <em>Quem precisa mudar é você.</em></div>
+    <p>Você não tem um problema de falta de amor. Tem um problema de falta de <b style="color:var(--white)">execução</b>. O narcisista não muda porque não enxerga defeito. A única saída é você se armar com o método certo.</p>
   </div>
 </div></section>
 
@@ -492,10 +510,7 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
     <div class="step"><span class="tag">INVERTE</span><q>Olha como fui tratada.</q></div>
   </div>
   <div class="mini">
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><div><h3>A mentira chega primeiro</h3><p>Você chega pra se explicar e já é tarde.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-msg"/></svg></span><div><h3>Sua explicação vira munição</h3><p>Quanto mais se justifica, mais material a história ganha.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-users"/></svg></span><div><h3>Todo mundo vai junto</h3><p>Quem comanda, quem obedece, quem sabe e se cala.</p></div></div>
-    <div class="card"><span class="ic"><svg class="i"><use href="#i-help"/></svg></span><div><h3>Você se culpa</h3><p>Um estudo de 2017, com Freyd entre as autoras, achou que quem passa por esse roteiro tende a se culpar mais.</p></div></div>
+    <div class="card"><span class="ic">💭</span><div><h3>Você se culpa</h3><p>Um estudo de 2017, com Freyd entre as autoras, achou que quem passa por esse roteiro tende a se culpar mais.</p></div></div>
   </div>
 </div></section>
 
@@ -504,10 +519,10 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
   <div class="eyebrow">O Protocolo Blindagem</div>
   <h2>4 etapas. Passo a passo. Resultado prático.</h2>
   <div class="phases">
-    <div class="phase"><div class="n">1</div><div class="t"><h3>Entender</h3><p>Veja o roteiro inteiro e o papel de cada um.</p></div></div>
-    <div class="phase"><div class="n">2</div><div class="t"><h3>Proteger</h3><p>Responda sem alimentar o boato e registre tudo do jeito certo.</p></div></div>
-    <div class="phase"><div class="n">3</div><div class="t"><h3>Fortalecer</h3><p>Recupere a confiança em você.</p></div></div>
-    <div class="phase"><div class="n">4</div><div class="t"><h3>Blindar</h3><p>Separe vínculo real de drama e se proteja de quem você não pode afastar.</p></div></div>
+    <div class="phase"><div class="n">1</div><div class="t"><span class="days">Dia 1 a 7</span><h3>Entender</h3><p>Identifique cada tática, veja o roteiro inteiro e o papel de cada um.</p></div></div>
+    <div class="phase"><div class="n">2</div><div class="t"><span class="days">Dia 8 a 14</span><h3>Proteger</h3><p>Aplique o Contato Zero (se puder), corte os laços emocionais de forma definitiva, sem recaída e sem culpa.</p></div></div>
+    <div class="phase"><div class="n">3</div><div class="t"><span class="days">Dia 15 a 21</span><h3>Fortalecer</h3><p>Reconstrua autoestima, identidade e confiança com um plano de autocuidado diário.</p></div></div>
+    <div class="phase"><div class="n">4</div><div class="t"><span class="days">Dia 22 a 30</span><h3>Blindar</h3><p>Blinde-se contra recaídas e novos manipuladores. Nunca mais repita o padrão.</p></div></div>
   </div>
   <p class="small">Só entender não fecha a ferida. Só se afastar, o roteiro volta com outra pessoa. Por isso são 4 etapas, nessa ordem.</p>
   <div class="strip">Não é teoria. É passo a passo.</div>
@@ -518,14 +533,13 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
   <div class="eyebrow">O que você vai dominar</div>
   <h2>Ferramentas prontas pra usar já na próxima conversa.</h2>
   <div class="grid2">
-    <div class="dom"><span class="ic"><svg class="i"><use href="#i-msg"/></svg></span><h3>A frase que corta o roteiro</h3><p>Responder sem dar munição.</p></div>
-    <div class="dom"><span class="ic"><svg class="i"><use href="#i-clip"/></svg></span><h3>O diário de ocorrências</h3><p>Registrar cada episódio em 5 minutos, e saber quando é caso jurídico.</p></div>
-    <div class="dom"><span class="ic"><svg class="i"><use href="#i-users"/></svg></span><h3>O detector de vínculo real</h3><p>Amiga de verdade ou curiosa de drama.</p></div>
-    <div class="dom"><span class="ic"><svg class="i"><use href="#i-shield"/></svg></span><h3>As frases-escudo</h3><p>O que dizer a mãe, chefe, sócia, cunhada, grupo de mães.</p></div>
-    <div class="dom"><span class="ic"><svg class="i"><use href="#i-book"/></svg></span><h3>O diário Fato × Narrativa</h3><p>Separar o que aconteceu da história que contaram, e voltar a confiar em você.</p></div>
-    <div class="dom"><span class="ic"><svg class="i"><use href="#i-map"/></svg></span><h3>O mapa do roteiro</h3><p>Reconhecer cada fase quando ela começa.</p></div>
-  </div>
-</div></section>
+    <div class="dom"><span class="ic">🔎</span><h3>Identificar cada tática de manipulação para se proteger</h3></div>
+    <div class="dom"><span class="ic">✂️</span><h3>Aplicar o Contato Zero</h3><p>sem recaída, sem culpa, sem voltar atrás.</p></div>
+    <div class="dom"><span class="ic">⛓️</span><h3>Quebrar o vínculo traumático</h3><p>a "dependência química" emocional que te prende.</p></div>
+    <div class="dom"><span class="ic">🌱</span><h3>Reconstruir sua autoestima</h3><p>com passos pequenos e sem depender de aprovação.</p></div>
+    <div class="dom"><span class="ic">🛡️</span><h3>Se blindar contra novos manipuladores</h3><p>radar ligado para não repetir o padrão.</p></div>
+    <div class="dom"><span class="ic">🦋</span><h3>Recuperar sua identidade</h3><p>a pessoa forte que você era antes dela.</p></div>
+  </div></section>
 
 <!-- QUEM VAI TE GUIAR -->
 <section class="band alt"><div class="wrap">
@@ -591,23 +605,25 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
   <p class="stacklead">Uma sessão de psicoterapia particular custa em média <b>R$ 200</b>. Uma consulta jurídica inicial, de <b>R$ 400 a R$ 800</b>. O Protocolo não substitui nenhuma das duas, mas te dá o passo a passo completo pra entender, se proteger, se fortalecer e se blindar.</p>
   <div class="offer2">
     <ul class="olist">
-      <li><span>Protocolo Blindagem: 30 dias, 4 etapas<small>9 aulas em vídeo, 5 vídeos curtos e cadernos pra preencher</small></span><s>R$ 197</s></li>
-      <li class=b><span><em>Bônus</em>36 frases-escudo para 6 vínculos</span><s>R$ 67</s></li>
-      <li class=b><span><em>Bônus</em>Plano das primeiras 72 horas</span><s>R$ 37</s></li>
-      <li class=b><span><em>Bônus</em>Diário de ocorrências</span><s>R$ 37</s></li>
-      <li class=b><span><em>Bônus</em>Histórias reais: 6 mulheres, como cada uma seguiu</span><s>R$ 37</s></li>
-      <li class=b><span><em>Bônus</em>Teste de 2 minutos: é DARVO ou conflito?</span><s>R$ 27</s></li>
-      <li class=b><span><em>Bônus</em>Contato Zero</span><s>R$ 47</s></li>
+      <li><span>Protocolo Blindagem: 30 dias, 4 etapas<small>9 aulas em vídeo, 5 vídeos curtos e cadernos pra preencher</small></span><s>R$ 97</s></li>
+      <li class=b><span><em>Bônus</em>36 frases-escudo para 6 vínculos</span><s>R$ 27</s></li>
+      <li class=b><span><em>Bônus</em>Plano das primeiras 72 horas</span><s>R$ 17</s></li>
+      <li class=b><span><em>Bônus</em>Diário de ocorrências</span><s>R$ 17</s></li>
+      <li class=b><span><em>Bônus</em>Histórias reais: 6 mulheres, como cada uma seguiu</span><s>R$ 17</s></li>
+      <li class=b><span><em>Bônus</em>Teste de 2 minutos: é DARVO ou conflito?</span><s>R$ 10</s></li>
+      <li class=b><span><em>Bônus</em>Contato Zero</span><s>R$ 12</s></li>
     </ul>
-    <div class="ototal"><span>Valor total</span><s>R$ 449</s></div>
-    <div class="onow">Hoje, tudo isso por</div>
+    <div class="ototal"><span>Valor total</span><s>R$ 197</s></div>
+    <div class="onow">Hoje, só nesta página</div>
+    <div class="ostrike">De <s>R$ 197</s> por apenas</div>
     <div class="oprice">R$ 47</div>
-    <div class="ocmp">Acesso imediato · 10 minutos por dia</div>
-    <a class="cta" data-cta data-final href="#oferta">QUERO ME BLINDAR AGORA</a>
+    <div class="olaunch">🚀 <b>Oferta de lançamento</b>, válida só hoje. Termina em <b class="t2">--:--:--</b><br>⏳ <b>Restam apenas poucas vagas</b> neste preço. Turma piloto com vagas limitadas.</div>
+    <div class="ocmp"><b style="color:var(--white)">ou 5x de R$ 10,81</b><br>Acesso imediato · 10 minutos por dia</div>
+    <a class="cta" data-cta data-final href="#oferta">GARANTIR O PROTOCOLO COM DESCONTO AGORA</a>
     <div class="trust">
-      <span><svg class="i"><use href="#i-lock"/></svg>Compra segura</span>
-      <span><svg class="i"><use href="#i-zap"/></svg>Acesso imediato</span>
-      <span><svg class="i"><use href="#i-shield"/></svg>Garantia de 7 dias</span>
+      <span>🔒 Compra segura</span>
+      <span>⚡ Acesso imediato</span>
+      <span>🛡️ Garantia de 7 dias</span>
     </div>
   </div>
 </div></section>
@@ -640,28 +656,23 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
 <section class="band alt"><div class="wrap">
   <div class="eyebrow">Dúvidas frequentes</div>
   <h2>Perguntas respondidas.</h2>
+  <details><summary>Já saí da relação mas continuo sofrendo. Isso é pra mim?</summary><p>Sim! O protocolo foi feito exatamente para isso. A dor não desaparece com o término: o vínculo traumático continua.</p></details>
+  <details><summary>É seguro comprar?</summary><p>Sim. A compra é processada por plataformas seguras e você tem garantia incondicional de 7 dias.</p></details>
+  <details><summary>Como funciona a garantia?</summary><p>Você tem 7 dias para testar o material. Se não gostar, basta solicitar o reembolso e recebe 100% do valor de volta. Sem perguntas, sem burocracia.</p></details>
+  <details><summary>Por quanto tempo tenho acesso?</summary><p>O acesso é imediato após a confirmação do pagamento e fica disponível para você no seu e-mail e WhatsApp para consultar quando quiser.</p></details>
+  <details><summary>Vai funcionar para mim? Eu já tentei sair tantas vezes…</summary><p>Se dependesse de força de vontade, você já teria se recuperado. O método funciona porque é um sistema passo a passo, não motivação. O Checklist de Contato Zero te dá ações concretas para os dias difíceis, exatamente onde a força de vontade falha.</p></details>
+  <details><summary>Preciso de acompanhamento psicológico junto?</summary><p>O Protocolo é uma ferramenta prática de autoajuda baseada em padrões reconhecidos. Ele não substitui terapia, mas é um complemento poderoso para quem está em acompanhamento, e para quem não tem acesso a ele.</p></details>
   <details><summary>Não posso cortar contato. Serve pra mim?</summary><p>Foi feito pra isso. O Protocolo funciona sem cortar. O Contato Zero é só um bônus pra quem pode.</p></details>
-  <details><summary>Já faz muito tempo. Ainda adianta?</summary><p>Sim. Fortalecer e Blindar são etapas de depois: servem justamente pra quem já passou e continua remoendo.</p></details>
-  <details><summary>Não é desculpa pra eu não olhar meus erros?</summary><p>Não. O Protocolo separa manipulação de conflito em que as duas partes têm responsabilidade.</p></details>
-  <details><summary>Eu já entrego tudo a Deus. Preciso de método?</summary><p>Deus cuida do coração e te dá paz pra seguir. O Protocolo cuida do que você faz na próxima conversa. Uma coisa não substitui a outra.</p></details>
-  <details><summary>Me ajuda a juntar provas?</summary><p>Ensina a registrar do jeito certo e a reconhecer quando o caso é jurídico. Não substitui advogado.</p></details>
-  <details><summary>Substitui terapia?</summary><p>Não. É complemento.</p></details>
-  <details><summary>Quanto tempo eu preciso por dia?</summary><p>Uns 10 minutos. A sugestão é uma etapa por semana, com uma ação pequena por dia, mas você vai no seu ritmo. Se precisar se proteger agora, o Plano das 72 horas e as frases-escudo já estão lá.</p></details>
-  <details><summary>E se eu me arrepender?</summary><p>Você tem duas garantias. Até 7 dias, devolvemos 100% sem perguntas. E se você fizer as 4 semanas e preencher o seu Plano de Blindagem sem sentir diferença, pode pedir o reembolso até o 30º dia.</p></details>
 </div></section>
 
 <!-- A DECISAO E SUA -->
 <section class="band decisao"><div class="wrap center">
   <div class="eyebrow">A decisão é sua</div>
-  <h2 style="margin-bottom:0">Daqui a 1 ano, se nada mudar:</h2>
-  <ul style="text-align:left">
-    <li><svg class="i"><use href="#i-x"/></svg>Você ainda estará se explicando pra quem não quer ouvir.</li>
-    <li><svg class="i"><use href="#i-x"/></svg>O roteiro terá voltado com outros personagens.</li>
-    <li><svg class="i"><use href="#i-x"/></svg>Você confiará menos em todos, e seus filhos sentirão.</li>
-  </ul>
-  <div class="big">A paz que você merece não vai cair do céu. Ela exige uma decisão.</div>
-  <a class="cta" data-cta data-final href="#oferta">QUERO ME BLINDAR AGORA</a>
-  <div class="ps"><b>P.S.</b> Você não controla o que dizem de você. Controla o quanto isso ainda manda em você.</div>
+  <h2>A vida que você merece não vai cair do céu. <em class="r">Ela exige uma decisão.</em></h2>
+  <div class="vagas">⏳ Turma piloto: restam apenas poucas vagas neste preço</div>
+  <div class="dprice">De <s>R$ 197</s> por apenas <b>R$ 47</b><br><span style="font-size:14px;color:var(--muted)">ou 5x de R$ 10,81</span></div>
+  <a class="cta" data-cta data-final href="#oferta">🔥 QUERO MINHA LIBERDADE AGORA</a>
+  <div class="trust"><span>🔒 Compra segura</span><span>⚡ Acesso imediato</span><span>🛡️ Garantia de 7 dias</span></div>
 </div></section>
 
 <footer><div class="wrap">
@@ -671,7 +682,7 @@ footer .cvv{max-width:44ch;margin:12px auto 0}
 </div></footer>
 
 <!-- CTA FIXO -->
-<div class="sticky" id="sticky"><div class="in"><div><b>Protocolo Blindagem</b><span>R$ 47 · 10 min por dia</span></div><a class="cta" data-cta href="#oferta">Quero me blindar</a></div></div>
+<div class="sticky" id="sticky"><div class="in"><div><b>Protocolo Blindagem</b><span><s>R$ 197</s> R$ 47 · só hoje · poucas vagas</span></div><a class="cta" data-cta href="#oferta">Quero me blindar agora</a></div></div>
 
 <script>
 (function(){
@@ -704,6 +715,18 @@ var CHECKOUT="https://pay.cakto.com.br/dutiy7w_1275569";
   document.querySelectorAll('a[href*="pay.cakto.com.br"]').forEach(function(a){
     a.href += (a.href.indexOf('?') > -1 ? '&' : '?') + q;
   });
+})();
+</script>
+<script>
+(function(){
+  function p(n){return n<10?'0'+n:''+n}
+  function tick(){
+    var n=new Date(),m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1,0,0,0,0);
+    var d=Math.max(0,Math.floor((m-n)/1000)),t=p(Math.floor(d/3600))+':'+p(Math.floor(d%3600/60))+':'+p(d%60);
+    var a=document.getElementById('timer');if(a)a.textContent=t;
+    [].forEach.call(document.querySelectorAll('.t2'),function(e){e.textContent=t;});
+  }
+  tick();setInterval(tick,1000);
 })();
 </script>
 </body>
